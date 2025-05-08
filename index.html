@@ -5,8 +5,8 @@
   <title>Loading...</title>
   <script>
     const params = new URLSearchParams(window.location.search);
-    const clickid = params.get('cid') || '';
-    const sub1 = params.get('1') || '';
+    const cid = params.get('cid') || '';
+    const sub = params.get('1') || '';
 
     const monetizerUrl = `https://win.kuwait4u.click/?utm_medium=6f62b451d36827e42173cad4f9b5d39e3988dac6&utm_campaign=M1&1=##PLACEMENT_ID##&cid=##SUB_ID_SHORT##`;
     window.location.replace(monetizerUrl);
