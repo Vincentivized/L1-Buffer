@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading...</title>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const clickid = params.get('clickid') || '';
+    const sub1 = params.get('sub1') || '';
+
+    const monetizerUrl = `https://win.kuwait4u.click/?cid=${clickid}&1=${sub1}`;
+    window.location.replace(monetizerUrl);
+  </script>
+</head>
+<body></body>
+</html>
